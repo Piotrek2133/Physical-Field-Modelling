@@ -1,0 +1,26 @@
+# Element Type: rectangular or triangular
+element_type: rectangular
+
+# Physical dimensions
+a: 1
+b: 1
+
+# Grid divisions
+hx: 0.2
+
+# Number of nodes
+nx: 10
+ny: 10
+
+# Material properties
+k1: 1
+k2: 4
+
+# Boundary Conditions
+# Format: boundary, condition_type, value
+# boundary: left, right, top, bottom
+# condition_type: dirichlet, neumann
+left: dirichlet 300
+right: dirichlet 400
+
+
